@@ -183,9 +183,6 @@ String readEEPROMString(int address, int maxLength) {
 }
 
 
-
-void writeEEPROMString(int address, const String& value) {
-  for (int i = 0; i < value.length(); i++) {
-    EEPROM.write(address + i, value[i]);
-  }
+void scanWifi(){
+  
 }
