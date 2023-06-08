@@ -109,15 +109,6 @@ void startAccessPointMode() {
     }
   }
 
-  /* Prompt user to enter new SSID and password via the chosen communication method (e.g., Wi-Fi Serial)
-  // Store the entered SSID and password in EEPROM
-  writeEEPROMString(loginAddress, newSSID);
-  writeEEPROMString(passwordAddress, newPassword);
-
-  EEPROM.commit();
-
-  Serial.println("New credentials saved");
-  ESP.restart(); */
 }
 
 void processClientData() {
